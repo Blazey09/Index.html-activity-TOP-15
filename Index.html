@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-image: url(background.gif);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+    }
+    .card {
+float: left;
+margin-left: 55px;
+margin-top: 50px;
+ width: 210px;
+ height: 410px;
+ border-radius: 20px;
+ background: #f5f5f5;
+ position: relative;
+ padding: 1px;
+ border: 2px solid #c3c6ce;
+ transition: 0.5s ease-out;
+ overflow: visible;
+}
+
+.card-details {
+ color: black;
+ height: 100%;
+ gap: .5em;
+ display: grid;
+}
+
+.card-button {
+ transform: translate(-50%, 125%);
+ width: 60%;
+ border-radius: 1rem;
+ border: none;
+ background-color: #008bf8;
+ color: #fff;
+ font-size: 1rem;
+ padding: .5rem 1rem;
+ position: absolute;
+ left: 50%;
+ bottom: 0;
+ opacity: 0;
+ transition: 0.3s ease-out;
+}
+
+.text-body {
+    margin-top: 1px;
+ color: rgb(134, 134, 134);
+}
+
+/*Text*/
+.text-title {
+ font-size: 1.5em;
+ font-weight: bold;
+}
+
+/*Hover*/
+.card:hover {
+ border-color: #008bf8;
+ box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+
+.card:hover .card-button {
+ transform: translate(-50%, 50%);
+ opacity: 1;
+}
+
+.header {
+  font-family:fantasy
+  padding: 1px;
+  text-align: center;
+  color: rgb(95, 251, 23);
+  font-size: 30px;
+}
+
+</style>
+<body>
+
+    <div class="header">
+        <h1>My Top 15 Movies of All Time</h1>
+        <p>Created by a Marvel/LOTR-Hobbit Fanboy      </p>
+      </div>
+
+    <div class="card">
+        <center><img style="width: 150px; margin-top: 1px;" src="movie1.jpeg"></center>
+        <div class="card-details">
+         <div style="margin-left: 5px;">
+        <b><p>Name: Dead Pool</p></b>
+        <p>Genre: Action, Comedy, R+18</p>
+        <p style="font-size: 12px;">Wade Wilson (Ryan Reynolds) is a former Special Forces operative who now works as a mercenary. His world comes crashing down when evil scientist Ajax (Ed Skrein) tortures, disfigures and transforms him into Deadpool.</p>
+        </div>
+        </div>
+        <button class="card-button">Click For More Details</button>
+      </div>
+
+      <div class="card">
+        <center><img style="width: 150px; margin-top: 1px;" src="movie2.jpeg"></center>
+        <div class="card-details">
+         <div style="margin-left: 5px;">
+        <b><p>Name: Dead Pool 2</p></b>
+        <p>Genre: Action, Comedy, R+18</p>
+        <p style="font-size: 13px;">Wade has a vision of Vanessa in the afterlife, but the pieces of his body remain alive and are put back together by Colossus.</p>
+        </div>
+        </div>
+        <button class="card-button">Click For More Details</button>
+      </div>
+
+      <div class="card">
+        <center><img style="width: 150px; margin-top: 1px;" src="movie3.jpeg"></center>
+        <div class="card-details">
+         <div style="margin-left: 5px;">
+        <b><p>Thor: Ragnarok</p></b>
+        <p>Genre: Action, Comedy, Fantasy</p>
+        <p style="font-size: 13px;">Thor's quest for survival leads him in a race against time to prevent the all-powerful Hela from destroying his home world and the Asgardian civilization.</p>
+        </div>
+        </div>
+        <button class="card-button">Click For More Details</button>
+      </div>
+
+      <div class="card">
+        <center><img style="width: 150px; margin-top: 1px;" src="movie4.jpeg"></center>
+        <div class="card-details">
+         <div style="margin-left: 5px;">
+        <b><p>The Hobbit: The Desolation of Smaug</p></b>
+        <p>Genre: Fantasy, Novel</p>
+        <p style="font-size: 13px;">Bilbo Baggins, Gandalf the wizard and a group of dwarves seek a dragon's treasure, and encounter a series of incredible obstacles over the course of their epic journey.</p>
+        </div>
+        </div>
+        <button class="card-button">Click For More Details</button>
+      </div>
+
+      <div class="card">
+        <center><img style="width: 150px; margin-top: 1px;" src="movie5.jpeg"></center>
+        <div class="card-details">
+         <div style="margin-left: 5px;">
+        <b><p>Spider Man: No Way Home</p></b>
+        <p>Genre: Fantasy, Action, Comedy</p>
+        <p style="font-size: 12px;">With Spider-Man's identity now revealed, our friendly neighborhood web-slinger is unmasked and no longer able to separate his normal life as Peter Parker from the high stakes of being a superhero.</p>
+        </div>
+        </div>
+        <button class="card-button">Click For More Details</button>
+      </div>
+
+      <div class="card">
+        <center><img style="width: 150px; margin-top: 1px;" src="movie6.jpeg"></center>
+        <div class="card-details">
+         <div style="margin-left: 5px;">
+        <b><p>The Lord of The Rings: The Return of The King</p></b>
+        <p>Genre: Fantasy, Action</p>
+        <p style="font-size: 10px;">The Lord of the Rings is a series of three epic fantasy adventure films directed by Peter Jackson, based on the novel The Lord of the Rings by J. R. R. Tolkien. The films are subtitled The Fellowship of the Ring, The Two Towers, and The Return of the King.</p>
+        </div>
+        </div>
+        <button class="card-button">Click For More Details</button>
+      </div>
+
+      <div class="card">
+        <center><img style="width: 150px; margin-top: 1px;" src="movie7.jpeg"></center>
+        <div class="card-details">
+         <div style="margin-left: 5px;">
+        <b><p>The Lord of The Rings: Two Towers</p></b>
+        <p>Genre: Fantasy, Action, Novel</p>
+        <p style="font-size: 11px;">The Lord of the Rings: The Two Towers is a 2002 epic fantasy adventure film directed by Peter Jackson from a screenplay by Fran Walsh, Philippa Boyens, Stephen Sinclair, and Jackson, based on 1954's</p>
+        </div>
+        </div>
+        <button class="card-button">Click For More Details</button>
+      </div>
+    
+      <div class="card">
+        <center><img style="width: 150px; margin-top: 1px;" src="movie8.jpeg"></center>
+        <div class="card-details">
+         <div style="margin-left: 5px;">
+        <b><p>The Avengers</p></b>
+        <p>Genre: Fantasy, Action</p>
+        <p style="font-size: 13px;">When Thor's evil brother, Loki (Tom Hiddleston), gains access to the unlimited power of the energy cube called the Tesseract, Nick Fury (Samuel L. Jackson), director of S.H.I.E.L.D</p>
+        </div>
+        </div>
+        <button class="card-button">Click For More Details</button>
+      </div>
+
+      <div class="card">
+        <center><img style="width: 150px; margin-top: 1px;" src="movie9.jpeg"></center>
+        <div class="card-details">
+         <div style="margin-left: 5px;">
+        <b><p>The Avengers: End Game</p></b>
+        <p>Genre: Fantasy, Action</p>
+        <p style="font-size: 13px;">It all comes to an end in the epic superhero film Avengers: Endgame. In the wake of Thanos' mass genocide the Avengers come up with a plan to get everyone back.</p>
+        </div>
+        </div>
+        <button class="card-button">Click For More Details</button>
+      </div>
+      
+      <div class="card">
+        <center><img style="width: 150px; margin-top: 1px;" src="movie10.jpeg"></center>
+        <div class="card-details">
+         <div style="margin-left: 5px;">
+        <b><p>The Lord of The Rings The Fellowship of The Ring</p></b>
+        <p>Genre: Fantasy, Action, Novel</p>
+        <p style="font-size: 13px;">The future of civilization rests in the fate of the One Ring, which has been lost for centuries. Powerful forces are unrelenting in their search for it. </p>
+        </div>
+        </div>
+        <button class="card-button">Click For More Details</button>
+      </div>
+
+      <div class="card">
+        <center><img style="width: 150px; margin-top: 1px;" src="movie11.jpeg"></center>
+        <div class="card-details">
+         <div style="margin-left: 5px;">
+        <b><p>The Hobbit: An Unexpected Journey</p></b>
+        <p>Genre: Fantasy, Action, Novel</p>
+        <p style="font-size: 11px;">TBilbo Baggins (Martin Freeman) lives a simple life with his fellow hobbits in the shire, until the wizard Gandalf (Ian McKellen) arrives and convinces him to join a group of dwarves on a quest to reclaim the kingdom of Erebor.</p>
+        </div>
+        </div>
+        <button class="card-button">Click For More Details</button>
+      </div>
+
+      <div class="card">
+        <center><img style="width: 150px; margin-top: 1px;" src="movie12.jpeg"></center>
+        <div class="card-details">
+         <div style="margin-left: 5px;">
+        <b><p>Captain America: Civil War</p></b>
+        <p>Genre: Fantasy, Action</p>
+        <p style="font-size: 13px;">Political pressure mounts to install a system of accountability when the actions of the Avengers lead to collateral damage. The new status quo deeply divides members of the team.</p>
+        </div>
+        </div>
+        <button class="card-button">Click For More Details</button>
+      </div>
+
+      <div class="card">
+        <center><img style="width: 150px; margin-top: 1px; margin-bottom: 1px;" src="movie13.jpeg"></center>
+        <div class="card-details">
+         <div style="margin-left: 5px;">
+        <b><p>The Avengers: Age of Ultron</p></b>
+        <p>Genre: Fantasy, Action</p>
+        <p style="font-size: 13px;">Political pressure mounts to install a system of accountability when the actions of the Avengers lead to collateral damage. The new status quo deeply divides members of the team.</p>
+        </div>
+        </div>
+        <button class="card-button">Click For More Details</button>
+      </div>
+
+      <div class="card">
+        <center><img style="width: 150px; margin-top: 1px;" src="movie14.jpeg"></center>
+        <div class="card-details">
+         <div style="margin-left: 5px;">
+        <b><p>The Hobbit: The Battle of the Five Armies</p></b>
+        <p>Genre: Fantasy, Action, Novel</p>
+        <p style="font-size: 11px;">Having reclaimed Erebor and vast treasure from the dragon Smaug, Thorin Oakenshield (Richard Armitage) sacrifices friendship and honor in seeking the Arkenstone, despite Smaug's fiery wrath and desperate attempts by the Hobbit Bilbo</p>
+        </div>
+        </div>
+        <button class="card-button">Click For More Details</button>
+      </div>
+
+      <div class="card">
+        <center><img style="width: 150px; margin-top: 1px;" src="movie15.jpeg"></center>
+        <div class="card-details">
+         <div style="margin-left: 5px;">
+        <b><p>Avengers: Infinity War</p></b>
+        <p>Genre: Fantasy, Action</p>
+        <p style="font-size: 12px;">Iron Man, Thor, the Hulk and the rest of the Avengers unite to battle their most powerful enemy yet -- the evil Thanos. On a mission to collect all six Infinity Stones, Thanos plans to use the artifacts to inflict his twisted will on reality.</p>
+        </div>
+        </div>
+        <button class="card-button">Click For More Details</button>
+      </div>
+
+</body>
+</html>
